@@ -15,9 +15,15 @@ namespace Encapsulation
 			//A.SetY(3000);
 			//A.Print();
 
-			A.X = 22;
-			A.Y = 33;
-			A.Print();
+			A.X = -4;
+			A.Y = 3;
+			//A.Print();
+			Point B = new Point();
+			B.X = 2;
+			B.Y = -5;
+			//Console.WriteLine(A.Distance(B));
+			Point C = new Point();
+			Console.WriteLine(Point.Distance(A, B));
 		}
 	}
 }
